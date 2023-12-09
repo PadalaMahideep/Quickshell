@@ -1,4 +1,4 @@
-# Frontend assignment  By QuickShell
+# Frontend assignment  By QuickSell
 
 # **Use React JS for the Assignment**
 
