@@ -27,6 +27,7 @@ button {
   background-color: white;
   border: none;
   outline: none;
+  color: black;
 }
 
 .float {
@@ -68,6 +69,7 @@ button {
   width: fit-content;
   height: 20px;
   background-color: white;
+  color: black;
   border: 0.25px solid rgb(212, 209, 209);
   border-radius: 3px;
   outline: none;
