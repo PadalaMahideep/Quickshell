@@ -190,7 +190,7 @@ const Main = ({ selectedStatus, selectedOrdering }) => {
                     <div className="cdf2">
                       <div
                         className={`aval1 ${
-                          usersById[tickets[0].userId].available
+                          usersById[ticket.userId].available
                             ? "available"
                             : "unavailable"
                         }`}
