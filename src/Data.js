@@ -3,6 +3,7 @@ import img2 from "./Images/Act2.jpg";
 import img3 from "./Images/anime3.jpg";
 import img4 from "./Images/raj.jpg";
 import img5 from "./Images/Anime1.webp";
+import img6 from "./Images/anime2.jpg";
 export const data = {
   tickets: [
     {
@@ -110,13 +111,22 @@ export const data = {
       status: "Backlog",
       priority: 1,
     },
+    {
+      id: "CAM-11",
+      title: "Data Preprocessing",
+      tag: ["Feature Request"],
+      userId: "usr-6",
+      status: "Done",
+      priority: 4,
+    },
   ],
   users: [
     { id: "usr-1", name: "Anoop sharma", available: false, img: img1 },
     { id: "usr-2", name: "Yogesh", available: true, img: img2 },
     { id: "usr-3", name: "Shankar Kumar", available: true, img: img3 },
     { id: "usr-4", name: "Ramesh", available: true, img: img4 },
-    { id: "usr-5", name: "Suresh", available: true, img: img1 },
+    { id: "usr-5", name: "Suresh", available: true, img: img5 },
+    { id: "usr-6", name: "Itachi", available: true, img: img6 },
   ],
 };
 
@@ -400,7 +410,7 @@ export const statusicons = {
       </g>
     </svg>
   ),
-  "Done ": (
+  Done: (
     <svg
       fill="#668ad1"
       width="20px"
@@ -447,4 +457,5 @@ export const images = {
   "usr-3": img3,
   "usr-4": img4,
   "usr-5": img5,
+  "usr-6": img6,
 };

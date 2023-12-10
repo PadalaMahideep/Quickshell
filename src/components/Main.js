@@ -158,12 +158,12 @@ const Main = ({ selectedStatus, selectedOrdering }) => {
                           {" "}
                           <img
                             className="userimg"
-                            src={images[tickets[0].userId]}
+                            src={images[ticket.userId]}
                             alt={group}
                           />
                           <div
                             className={`aval ${
-                              usersById[tickets[0].userId].available
+                              usersById[ticket.userId].available
                                 ? "available"
                                 : "unavailable"
                             }`}
